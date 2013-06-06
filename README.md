@@ -1,4 +1,4 @@
-# Social Tennis App
+ocial Tennis App
 
 This is an effort to merge all local ladders in to one national ladder. Each
 player will have the ability to register in the Social Tennis and challenge any
@@ -37,5 +37,7 @@ has a long way to go...)
 
 
 #License
-Copyright © 2013 Filippos Vasilakis. Distributed under the MIT License. See
+Copyright © 2013 Filippos Vasilakis. Distributed under the
+[MIT License](http://opensource.org/licenses/MIT "MIT License"). See
 LICENSE for further details.
+
