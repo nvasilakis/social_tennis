@@ -13,7 +13,7 @@ player etc, but only for amateurs and semi-professional players will be
 featured (pro players wouldn't have enough time to participate anyway).
 
 
-# TODO
+## TODO
 1. add basic static pages (Home/About/Contact)
 2. Add basic users infastructure
 3. Add advanced user profile
@@ -23,20 +23,20 @@ interactions.
 6. ....
 
 
-#Contributing
-##General
+##Contributing
+###General
 * All contributions are welcome! Nevertheless, we have special need for
 designers, rails experts, sysadmins and Android/iOS developers (HTML5 still
 has a long way to go...)
 
-##To Social Tennis App
+###To Social Tennis App
 * Fork this repository on github
 * Write tests
 * Write your code
 * Send me a pull request
 
 
-#License
+##License
 Copyright © 2013 Filippos Vasilakis. Distributed under the
 [MIT License](http://opensource.org/licenses/MIT "MIT License"). See
 LICENSE for further details.
