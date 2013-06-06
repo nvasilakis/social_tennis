@@ -1,4 +1,4 @@
-ocial Tennis App
+Social Tennis App
 
 This is an effort to merge all local ladders in to one national ladder. Each
 player will have the ability to register in the Social Tennis and challenge any
@@ -17,7 +17,7 @@ featured (pro players wouldn't have enough time to participate anyway).
 1. add basic static pages (Home/About/Contact)
 2. Add basic users infastructure
 3. Add advanced user profile
-4. Add messaging infastructure. It can be used for virtually all user-user
+4. Add messaging infastructure. It can be used, virtually, for all user-user
 interactions.
 5. Add user Wall that is part of the incoming/outgoing messages
 6. ....
