@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'capybara'
   gem 'spork', '0.9.2'
 end
 
@@ -20,10 +21,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'slim'
+gem 'slim-rails'
 
-group :test do
-  gem 'capybara'
-end
 
 group :production do
   gem 'pg'
