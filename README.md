@@ -14,7 +14,7 @@ featured (pro players wouldn't have enough time to participate anyway).
 
 
 ## TODO
-1. add basic static pages (Home/About/Contact)
+1. <del>add basic static pages (Home/About/Contact)</del>
 2. Add basic users infastructure
 3. Add advanced user profile
 4. Add messaging infastructure. It can be used, virtually, for all user-user
