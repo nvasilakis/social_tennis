@@ -17,7 +17,7 @@ featured (pro players wouldn't have enough time to participate anyway).
 1. <del>add basic static pages (Home/About/Contact)</del>
 2. Add basic users infastructure
 3. Add advanced user profile
-4. Add messaging infastructure. It can be used, virtually, for all user-user
+4. Add messaging infastructure. It can be used, virtually, for all inter-user
 interactions.
 5. Add user Wall that is part of the incoming/outgoing messages
 6. ....
