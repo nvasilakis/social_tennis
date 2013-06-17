@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
+gem 'validates_timeliness'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,6 +13,10 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'spork', '0.9.2'
+end
+
+group :development do
+  gem 'annotate'
 end
 
 # Gems used only for assets and not required
