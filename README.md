@@ -23,6 +23,40 @@ interactions.
 6. ....
 
 
+
+###Users Model
+1. Every User can have many roles:
+    1. a Tennis Player
+        2. an Admin
+            3. a Coach
+                4. ...
+                2. Upon registration (which requires only an email and a password) any user can modify her profile which can include
+                    1. Name (:all) (string)
+                        2. Email (:all) (email_string)
+                            3. Age (:all) (date)
+                                4. Local club (:all) (many to one)
+                                    5. Additional info (:all)
+                                            1. Started (meta-info: Years active) (:player/:admin/:coach) (date)
+                                                    2. Playing Style (:all)
+                                                                1. Plays (:all) (right | left)
+                                                                            2. Forehand (:all) (one | double)
+                                                                                        3. Backhand (:all) (one | double | both)
+                                                                                                    4. Details (:all) (text)
+                                                                                                            4. Height (:all) (Float?)
+                                                                                                                    5. Weight (:all) (Float?)
+                                                                                                                        6. Singles
+                                                                                                                                1. Active? (:all) (date)
+                                                                                                                                        2. (meta-info) Highest ranking (:all) (Integer)
+                                                                                                                                                3. (meta-info) Current ranking (:all) (Integer)
+                                                                                                                                                        4. (meta-info) Career record (:all) (Integers)
+                                                                                                                                                            7. Singles
+                                                                                                                                                                    1. Active? (:all) (date)
+                                                                                                                                                                            2. (meta-info) Highest ranking (:all) (Integer)
+                                                                                                                                                                                    3. (meta-info) Current ranking (:all) (Integer)
+                                                                                                                                                                                            4. (meta-info) Career record (:all) (Integers)
+                                                                                                                                                                                                 
+
+
 ##Contributing
 ###General
 * All contributions are welcome! Nevertheless, we have special need for
@@ -40,4 +74,5 @@ has a long way to go...)
 Copyright © 2013 Filippos Vasilakis. Distributed under the
 [MIT License](http://opensource.org/licenses/MIT "MIT License"). See
 LICENSE for further details.
+
 
