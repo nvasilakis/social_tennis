@@ -53,6 +53,12 @@ describe User do
     expect(it).to have(1).errors_on(:dob)
   end
 
+  it "is valid without a date" do
+    @user.dob = " "
+
+    expect(it).to be_valid
+  end
+
   it "is invalid with too long name" do
     @user.name = "a" * 51
 
