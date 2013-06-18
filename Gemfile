@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
 gem 'validates_timeliness'
+gem 'gravtastic'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -13,6 +14,10 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'spork', '0.9.2'
+end
+
+group :test do
+  gem 'factory_girl_rails'
 end
 
 group :development do

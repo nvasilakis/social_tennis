@@ -12,8 +12,11 @@
 #
 
 class User < ActiveRecord::Base
+  include Gravtastic
+  gravtastic
   attr_accessible :dob, :email, :name, :password, :password_confirmation
   has_secure_password
+
 
   before_save { |user| user.email = email.downcase }
 

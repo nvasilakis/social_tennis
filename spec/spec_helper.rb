@@ -116,3 +116,6 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = "random"
 end
+
+#FactoryGirl gem
+require 'factory_girl'
